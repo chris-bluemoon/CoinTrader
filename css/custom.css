@@ -1,5 +1,6 @@
 
 body {
+            background-color: grey;
             padding-top: 3.5rem;
         }
 
@@ -7,19 +8,49 @@ body {
             padding: 3rem 1.5rem;
             text-align: center;
         }
-
-.carousel-caption {
-    padding-bottom: 12%;
+.col-sm-12 {
+  padding: 5px;
+  border-color: black;
+  border: 2px;
+  margin: 5px;
 }
 
-.carousel-caption h3 {
-    font-size: 40px;
-    font-weight: bold;
+.header {
+  /* background-image:url("../images/header.jpg"); */
+  background-color:grey;
+  width: 100%;
+  color: white;
+  text-align: center;
+  /* font-family: 'Lato', sans-serif; */
 }
 
-.inputLabels {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+.intro {
+  text-align: center;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.row .inner {
+  background-color: grey;
+  color: white;
+  border: 1px solid;
+  margin: 5px;
+}
+
+.row {
+  background-color: grey;
+  color: white;
+}
+
+/* .row + .row {
+   border-top:0;
+} */
+
+.options-select {
+  display: inline-block;
+  padding: 20px;
+}
+
+.form-group {
+  display: inline-block;
 }
